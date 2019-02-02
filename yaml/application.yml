@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: auto-demo-container
-        image: shekeriev/k8s-jenkins:latest
+        image: shekeriev/k8s-jenkins:%IMAGE-PLACEHOLDER%
         ports:
         - containerPort: 80 
 ---
