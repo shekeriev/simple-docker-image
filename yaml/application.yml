@@ -34,7 +34,7 @@ spec:
   type: NodePort
   ports:
   - port: 80
-    nodePort: 30002
+    nodePort: 31000
     protocol: TCP
   selector:
     app: auto-demo
