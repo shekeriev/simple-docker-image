@@ -90,7 +90,7 @@ job "amazing-web-app-job" {
       # are specific to each driver, so please see specific driver
       # documentation for more information.
       config {
-        image = "%DOCKER-IMAGE%"
+        image = "shekeriev/nomad-jenkins:%DOCKER-IMAGE%"
         port_map {
           http = 80
         }
