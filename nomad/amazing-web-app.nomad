@@ -107,8 +107,8 @@ job "amazing-web-app-job" {
       #     https://www.nomadproject.io/docs/job-specification/resources.html
       #
       resources {
-        cpu    = 500 # 500 MHz
-        memory = 256 # 256MB
+        cpu    = 500
+        memory = 128
         network {
           mbits = 10
           port "http" {}
